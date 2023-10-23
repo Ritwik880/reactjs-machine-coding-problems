@@ -1,0 +1,43 @@
+:root {
+    --primary: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 103, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    --text: #FFFFFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.landing-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary);
+    height: 100vh;
+}
+
+.landing-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 2px solid #fff; */
+    /* padding: 20px; */
+}
+
+.landing-heading {
+    color: var(--text);
+    text-align: center;
+}
+
+.btn-primary {
+    width: 130px;
+}
+.large-btn{
+    width: 200px;
+}
+.form-control:focus{
+    background: red;
+}
