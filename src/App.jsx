@@ -9,6 +9,7 @@ import Memo from './Components/Memo';
 import Callback from './Components/Callback';
 import LayoutEffect from './Components/LayoutEffect';
 import Params from './Components/Params';
+import Reducer from './Components/Reducer';
 const App = () => {
   return (
     <Routes>
@@ -20,6 +21,7 @@ const App = () => {
       <Route path='/useCallback' element={<Callback/>}/>
       <Route path='/useLayoutEffect' element={<LayoutEffect/>}/>
       <Route path='/useParams/:id' element={<Params/>}/>
+      <Route path='/useReducer' element={<Reducer/>}/>
     </Routes>
   )
 }
