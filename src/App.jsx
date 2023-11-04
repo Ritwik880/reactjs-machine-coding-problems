@@ -9,7 +9,8 @@ import Memo from './Components/Memo';
 import Callback from './Components/Callback';
 import LayoutEffect from './Components/LayoutEffect';
 import Params from './Components/Params';
-import Reducer from './Components/Reducer';
+import Reducer from './Components/useReducer/Reducer';
+import ReducerHookChallenge from './Components/useReducer/ReducerHookChallenge';
 const App = () => {
   return (
     <Routes>
@@ -22,6 +23,7 @@ const App = () => {
       <Route path='/useLayoutEffect' element={<LayoutEffect/>}/>
       <Route path='/useParams/:id' element={<Params/>}/>
       <Route path='/useReducer' element={<Reducer/>}/>
+      <Route path='/useReducerChallenge' element={<ReducerHookChallenge/>}/>
     </Routes>
   )
 }
