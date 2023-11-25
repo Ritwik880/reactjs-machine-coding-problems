@@ -36,10 +36,10 @@
     width: 200px;
 }
 
-.form-control:focus {
-    background: red;
+.form{
+    width: 30%;
+    margin: auto;
 }
-
 .viewBtn {
     background: #007bff !important;
     color: #fff !important;
@@ -53,4 +53,10 @@
     grid-template-columns: repeat(4, 1fr);
     column-gap: 1rem;
     row-gap: 1rem;
+}
+.form-label{
+    color: #fff;
+}
+.error{
+    color: red;
 }

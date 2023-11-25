@@ -11,9 +11,13 @@ import LayoutEffect from './Components/LayoutEffect';
 import Params from './Components/Params';
 import Reducer from './Components/useReducer/Reducer';
 import ReducerHookChallenge from './Components/useReducer/ReducerHookChallenge';
-import Form from './Components/Form';
 import MyComponent from './Components/useContext/MyComponent';
 import PlaySound from './Components/useSound/PlaySound';
+import FetchAPI from './Components/Challenge/FetchAPI';
+import Counter from './Components/Challenge/Counter';
+import Puzzle from './Components/Challenge/Puzzle';
+import ValidationForm from './Components/Challenge/ValidationForm';
+import InputForm from './Components/InputForm';
 const App = () => {
   return (
     <Routes>
@@ -27,9 +31,13 @@ const App = () => {
       <Route path='/useParams/:id' element={<Params/>}/>
       <Route path='/useReducer' element={<Reducer/>}/>
       <Route path='/useReducerChallenge' element={<ReducerHookChallenge/>}/>
-      <Route path='/form' element={<Form/>}/>
       <Route path='/useContext' element={<MyComponent/>}/>
       <Route path='/useSound' element={<PlaySound/>}/>
+      <Route path='/fetchAPI' element={<FetchAPI/>}/>
+      <Route path='/counter' element={<Counter/>}/>
+      <Route path='/puzzle' element={<Puzzle/>}/>
+      <Route path='/form' element={<ValidationForm/>}/>
+      <Route path='/input' element={<InputForm/>}/>
     </Routes>
   )
 }
