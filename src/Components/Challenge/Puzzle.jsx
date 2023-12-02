@@ -16,6 +16,7 @@ const Puzzle = () => {
     <div>
       <h1>
         Message: {message}
+        
       </h1>
     </div>
   )

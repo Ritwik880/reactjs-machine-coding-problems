@@ -60,3 +60,27 @@
 .error{
     color: red;
 }
+.landing-box{
+    width: 50%;
+    margin: auto;
+    background: #3498db;
+    padding: 50px;
+    height: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+.landing-sub-heading{
+    color: #fff;
+}
+.btn-primary{
+    background: #8e44ad;
+    border: none;
+    outline: none;
+}
+.input-box{
+    width: 200px;
+}
+.heading{
+    color: #fff;
+
+}

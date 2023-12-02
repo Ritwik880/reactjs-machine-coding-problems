@@ -18,6 +18,10 @@ import Counter from './Components/Challenge/Counter';
 import Puzzle from './Components/Challenge/Puzzle';
 import ValidationForm from './Components/Challenge/ValidationForm';
 import InputForm from './Components/InputForm';
+import UrlShort from './Components/Challenge/UrlShort';
+import PasswordGenerator from './Components/Challenge/PasswordGenerator';
+import Login from './Components/Challenge/Login';
+import StopWatch from './Components/Challenge/StopWatch';
 const App = () => {
   return (
     <Routes>
@@ -38,6 +42,10 @@ const App = () => {
       <Route path='/puzzle' element={<Puzzle/>}/>
       <Route path='/form' element={<ValidationForm/>}/>
       <Route path='/input' element={<InputForm/>}/>
+      <Route path='/url-short' element={<UrlShort/>}/>
+      <Route path='/password' element={<PasswordGenerator/>}/>
+      <Route path='/login' element={<Login/>}/>
+      <Route path='/stopwatch' element={<StopWatch/>}/>
     </Routes>
   )
 }
