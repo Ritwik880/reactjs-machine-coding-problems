@@ -1,0 +1,22 @@
+.modal-div{
+    position: relative;
+}
+.custom-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #2c3e50;
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+}
+.modal-heading,
+.modal-para{
+    color: #fff;
+}

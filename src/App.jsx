@@ -22,6 +22,11 @@ import UrlShort from './Components/Challenge/UrlShort';
 import PasswordGenerator from './Components/Challenge/PasswordGenerator';
 import Login from './Components/Challenge/Login';
 import StopWatch from './Components/Challenge/StopWatch';
+import Modal from './Components/Challenge/Modal';
+import PaginationExample from './Components/Challenge/Pagination';
+import Todo from './Components/Challenge/Todo';
+import Tool from './Components/Challenge/Tool';
+import Form from './Components/Challenge/Form';
 const App = () => {
   return (
     <Routes>
@@ -46,6 +51,11 @@ const App = () => {
       <Route path='/password' element={<PasswordGenerator/>}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/stopwatch' element={<StopWatch/>}/>
+      <Route path='/modal' element={<Modal/>}/>
+      <Route path='/pagination' element={<PaginationExample/>}/>
+      <Route path='/todo' element={<Todo/>}/>
+      <Route path='/tool' element={<Tool/>}/>
+      <Route path='/useForm' element={<Form/>}/>
     </Routes>
   )
 }

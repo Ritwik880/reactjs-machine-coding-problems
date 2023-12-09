@@ -14,7 +14,7 @@ const Login = () => {
             <h1 className='landing-heading'>
                 {message}
             </h1>
-            <div className='d-flex justify-content-cente'>
+            <div className='d-flex justify-content-center'>
                 <button className='btn btn-primary' onClick={handleLogin}>
                     {
                         isLoggedin ? 'Logout' : 'Login'
