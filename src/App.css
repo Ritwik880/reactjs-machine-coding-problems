@@ -114,3 +114,35 @@ ul li{
     align-items: center;
     flex-direction: column;
 }
+.landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    height: 100vh;
+    /* background: var(--primary); */
+}
+.loading{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0;
+}
+.button{
+    width: 200px;
+    margin: auto;
+}
+.logout{
+    width: 150px;
+    /* margin: auto; */
+}
+.logout-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.landing-form-div{
+    width: 50%;
+    margin: auto;
+}

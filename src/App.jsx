@@ -27,6 +27,9 @@ import PaginationExample from './Components/Challenge/Pagination';
 import Todo from './Components/Challenge/Todo';
 import Tool from './Components/Challenge/Tool';
 import Form from './Components/Challenge/Form';
+import InfiniteScroll from './Components/Challenge/InfiniteScroll';
+import Theme from './Components/Challenge/Theme';
+import Auth from './Components/Challenge/Auth';
 const App = () => {
   return (
     <Routes>
@@ -56,6 +59,9 @@ const App = () => {
       <Route path='/todo' element={<Todo/>}/>
       <Route path='/tool' element={<Tool/>}/>
       <Route path='/useForm' element={<Form/>}/>
+      <Route path='/infinite-scroll' element={<InfiniteScroll/>}/>
+      <Route path='/theme' element={<Theme/>}/>
+      <Route path='/auth' element={<Auth/>}/>
     </Routes>
   )
 }
