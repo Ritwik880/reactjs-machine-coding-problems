@@ -23,8 +23,6 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    /* border: 2px solid #fff; */
-    /* padding: 20px; */
 }
 
 .landing-heading {
@@ -37,7 +35,7 @@
 }
 
 .form {
-    width: 30%;
+    width: 40%;
     margin: auto;
 }
 
@@ -85,7 +83,9 @@
 }
 
 .input-box {
-    width: 200px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 .heading,
@@ -95,26 +95,31 @@
 
 }
 
-.page{
+.page {
     color: #fff;
     margin: 0 10px;
 }
-.todo-list{
+
+.todo-list {
     margin-top: 10px;
 }
-ul{
+
+ul {
     padding-left: 0;
 }
-ul li{
+
+ul li {
     list-style: none;
 }
-.todos{
+
+.todos {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.landing{
+
+.landing {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,27 +127,55 @@ ul li{
     height: 100vh;
     /* background: var(--primary); */
 }
-.loading{
+
+.loading {
     color: #fff;
     font-size: 40px;
     text-align: center;
     padding: 20px 0;
 }
-.button{
+
+.button {
     width: 200px;
     margin: auto;
 }
-.logout{
+
+.logout {
     width: 150px;
     /* margin: auto; */
 }
-.logout-div{
+
+.logout-div {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.landing-form-div{
-    width: 50%;
+
+.landing-form-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landing-image {
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+.main-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    background: #9b59b6;
+}
+.card-wrap{
+    height: 110px;
+}
+.form-div{
+    width: 100%;
     margin: auto;
 }

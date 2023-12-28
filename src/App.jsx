@@ -30,6 +30,14 @@ import Form from './Components/Challenge/Form';
 import InfiniteScroll from './Components/Challenge/InfiniteScroll';
 import Theme from './Components/Challenge/Theme';
 import Auth from './Components/Challenge/Auth';
+import Challenge19 from './Components/Challenge/Challenge19';
+import Challenge20 from './Components/Challenge/Challenge20';
+import ConditionalRendering from './Components/shorts/ConditionalRendering';
+import Challenge21  from './Components/Challenge/Challenge21';
+import Challenge22 from './Components/Challenge/Challenge22';
+import Challenge23 from './Components/Challenge/Challenge23';
+import Challenge24 from './Components/Challenge/Challenge24';
+import Challenge25 from './Components/Challenge/Challenge25';
 const App = () => {
   return (
     <Routes>
@@ -62,6 +70,14 @@ const App = () => {
       <Route path='/infinite-scroll' element={<InfiniteScroll/>}/>
       <Route path='/theme' element={<Theme/>}/>
       <Route path='/auth' element={<Auth/>}/>
+      <Route path='/challenge19' element={<Challenge19/>}/>
+      <Route path='/challenge20' element={<Challenge20/>}/>
+      <Route path='/shorts1' element={<ConditionalRendering/>}/>
+      <Route path='/challenge21' element={<Challenge21/>}/>
+      <Route path='/challenge22' element={<Challenge22/>}/>
+      <Route path='/challenge23' element={<Challenge23/>}/>
+      <Route path='/challenge24' element={<Challenge24/>}/>
+      <Route path='/challenge25' element={<Challenge25/>}/>
     </Routes>
   )
 }
