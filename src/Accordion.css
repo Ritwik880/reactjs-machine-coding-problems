@@ -1,0 +1,29 @@
+.accordion-container{
+    width: 300px;
+    margin: 10px auto;
+}
+.accordion-item{
+    border: 1px solid #ddd;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+.accordion-item.active{
+    background-color: #f0f0f0;
+}
+.accordion-title{
+    padding: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    background-color: #fff;
+}
+.toggle-icon{
+    font-size: 1.5em;
+}
+.accordion-content{
+    padding: 12px;
+}
