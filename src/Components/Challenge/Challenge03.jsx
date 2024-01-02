@@ -3,7 +3,7 @@
 
 import React, {useRef, useState} from 'react'
 
-const Counter = () => {
+const Challenge03 = () => {
     const counterRef = useRef(0);
 
     const handleClick = ()=>{
@@ -23,4 +23,4 @@ const Counter = () => {
   )
 }
 
-export default Counter
+export default Challenge03

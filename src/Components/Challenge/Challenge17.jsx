@@ -11,7 +11,7 @@ const darkTheme = {
     backgroundColor: '#333',
     color: '#fff'
 }
-const Theme = () => {
+const Challenge17 = () => {
     //creating a use state
     const [theme, setTheme] = useState(lightTheme);
 
@@ -56,4 +56,4 @@ const Theme = () => {
   )
 }
 
-export default Theme
+export default Challenge17

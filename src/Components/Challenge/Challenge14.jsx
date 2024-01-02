@@ -6,8 +6,8 @@
 // The data stored is not deleted when the browser session ends, and it persists even after closing and reopening the browser.
 
 import React from 'react'
-import useLocalStorage from '../custom-hook/useLocalStorage'
-const Tool = () => {
+import useLocalStorage from '../react-custom-hook/useLocalStorage'
+const Challenge14 = () => {
     const [data, setData] = useLocalStorage('myData', []);
 
     const fetchData = async ()=>{
@@ -33,4 +33,4 @@ const Tool = () => {
   )
 }
 
-export default Tool
+export default Challenge14

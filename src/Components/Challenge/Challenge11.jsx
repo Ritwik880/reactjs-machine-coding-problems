@@ -2,7 +2,7 @@
 
 import React, {useState} from 'react';
 import '../../modal.css'
-const Modal = () => {
+const Challenge11 = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const openModal = ()=>{
@@ -40,4 +40,4 @@ const Modal = () => {
     );
 };
 
-export default Modal;
+export default Challenge11;

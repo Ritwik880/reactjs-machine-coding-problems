@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 
-const Todo = () => {
+const Challenge13 = () => {
     const [todos, setTodos] = useState([]);
     const [newTodo, setNewTodo] = useState('');
     const [editTodoId, setEditTodoId] = useState(null);
@@ -84,4 +84,4 @@ const Todo = () => {
     );
 };
 
-export default Todo;
+export default Challenge13;

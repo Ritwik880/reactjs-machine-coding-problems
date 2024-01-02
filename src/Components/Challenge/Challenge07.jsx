@@ -3,7 +3,7 @@
 import axios from 'axios';
 import React, { useState } from 'react';
 
-function UrlShort() {
+function Challenge07() {
     const [originalUrl, setOriginalUrl] = useState('');
     const [shortenUrl, setShortenUrl] = useState('');
 
@@ -59,4 +59,4 @@ function UrlShort() {
     );
 }
 
-export default UrlShort;
+export default Challenge07;

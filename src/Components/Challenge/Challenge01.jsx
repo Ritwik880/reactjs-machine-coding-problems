@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import useSound from 'use-sound';
 import music from '../../music/music.mp3';
 
-const PlaySound = () => {
+const Challenge01 = () => {
   const [volume, setVolume] = useState(100);
   const [play, { stop }] = useSound(music, { volume: volume / 100, autoplay: false });
 
@@ -43,4 +43,4 @@ const PlaySound = () => {
   );
 };
 
-export default PlaySound;
+export default Challenge01;

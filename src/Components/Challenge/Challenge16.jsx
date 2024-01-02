@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 
-const InfiniteScroll = () => {
+const Challenge16 = () => {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(false);
     const [page, setPage] = useState(1);
@@ -69,4 +69,4 @@ const InfiniteScroll = () => {
     )
 }
 
-export default InfiniteScroll
+export default Challenge16

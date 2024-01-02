@@ -1,6 +1,6 @@
 import React, {useState, useRef} from 'react';
 
-function InputForm() {
+function Challenge06() {
     
  
     // const handleEmailChange = (e)=>{
@@ -48,4 +48,4 @@ function InputForm() {
     );
 }
 
-export default InputForm;
+export default Challenge06;

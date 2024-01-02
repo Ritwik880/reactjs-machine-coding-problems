@@ -1,38 +1,44 @@
 import React from 'react'
-import State from './Components/State'
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Effect from './Components/Effect'
-import Event from './Components/Event';
-import Ref from './Components/Ref';
-import Memo from './Components/Memo';
-import Callback from './Components/Callback';
-import LayoutEffect from './Components/LayoutEffect';
-import Params from './Components/Params';
-import Reducer from './Components/useReducer/Reducer';
-import ReducerHookChallenge from './Components/useReducer/ReducerHookChallenge';
-import MyComponent from './Components/useContext/MyComponent';
-import PlaySound from './Components/useSound/PlaySound';
-import FetchAPI from './Components/Challenge/FetchAPI';
-import Counter from './Components/Challenge/Counter';
-import Puzzle from './Components/Challenge/Puzzle';
-import ValidationForm from './Components/Challenge/ValidationForm';
-import InputForm from './Components/InputForm';
-import UrlShort from './Components/Challenge/UrlShort';
-import PasswordGenerator from './Components/Challenge/PasswordGenerator';
-import Login from './Components/Challenge/Login';
-import StopWatch from './Components/Challenge/StopWatch';
-import Modal from './Components/Challenge/Modal';
-import PaginationExample from './Components/Challenge/Pagination';
-import Todo from './Components/Challenge/Todo';
-import Tool from './Components/Challenge/Tool';
-import Form from './Components/Challenge/Form';
-import InfiniteScroll from './Components/Challenge/InfiniteScroll';
-import Theme from './Components/Challenge/Theme';
-import Auth from './Components/Challenge/Auth';
+
+//React Hooks
+import State from './Components/react-hooks/State'
+import Effect from './Components/react-hooks/Effect'
+import Event from './Components/react-hooks/Event';
+import Ref from './Components/react-hooks/Ref';
+import Memo from './Components/react-hooks/Memo';
+import Callback from './Components/react-hooks/Callback';
+import LayoutEffect from './Components/react-hooks/LayoutEffect';
+import Params from './Components/react-hooks/Params';
+import Reducer from './Components/react-redux/Reducer';
+import ReducerHookChallenge from './Components/react-redux/ReducerHookChallenge';
+import MyComponent from './Components/react-context/MyComponent';
+
+//Youtube Short
+import ConditionalRendering from './Components/react-js-shorts/ConditionalRendering';
+
+//React Js Machine Coding Challenge
+import Challenge01 from './Components/Challenge/Challenge01';
+import Challenge02 from './Components/Challenge/Challenge02';
+import Challenge03 from './Components/Challenge/Challenge03';
+import Challenge04 from './Components/Challenge/Challenge04';
+import Challenge05 from './Components/Challenge/Challenge05';
+import Challenge06 from './Components/Challenge/Challenge06';
+import Challenge07 from './Components/Challenge/Challenge07';
+import Challenge08 from './Components/Challenge/Challenge08';
+import Challenge09 from './Components/Challenge/Challenge09';
+import Challenge10 from './Components/Challenge/Challenge10';
+import Challenge11 from './Components/Challenge/Challenge11';
+import Challenge12 from './Components/Challenge/Challenge12';
+import Challenge13 from './Components/Challenge/Challenge13';
+import Challenge14 from './Components/Challenge/Challenge14';
+import Challenge15 from './Components/Challenge/Challenge15';
+import Challenge16 from './Components/Challenge/Challenge16';
+import Challenge17 from './Components/Challenge/Challenge17';
+import Challenge18 from './Components/Challenge/Challenge18';
 import Challenge19 from './Components/Challenge/Challenge19';
 import Challenge20 from './Components/Challenge/Challenge20';
-import ConditionalRendering from './Components/shorts/ConditionalRendering';
 import Challenge21  from './Components/Challenge/Challenge21';
 import Challenge22 from './Components/Challenge/Challenge22';
 import Challenge23 from './Components/Challenge/Challenge23';
@@ -42,10 +48,13 @@ import Challenge26 from './Components/Challenge/Challenge26';
 import Challenge27 from './Components/Challenge/Challenge27';
 import Challenge28 from './Components/Challenge/Challenge28';
 import Challenge29 from './Components/Challenge/Challenge29';
+import Challenge30 from './Components/Challenge/Challenge30';
+
 const App = () => {
   return (
     <Routes>
-      <Route path='/' element={<State/>}/>
+      //React Hooks
+      <Route path='/useState' element={<State/>}/>
       <Route path='/useEffect' element={<Effect/>}/>
       <Route path='/event' element={<Event/>}/>
       <Route path='/useRef' element={<Ref/>}/>
@@ -56,27 +65,31 @@ const App = () => {
       <Route path='/useReducer' element={<Reducer/>}/>
       <Route path='/useReducerChallenge' element={<ReducerHookChallenge/>}/>
       <Route path='/useContext' element={<MyComponent/>}/>
-      <Route path='/useSound' element={<PlaySound/>}/>
-      <Route path='/fetchAPI' element={<FetchAPI/>}/>
-      <Route path='/counter' element={<Counter/>}/>
-      <Route path='/puzzle' element={<Puzzle/>}/>
-      <Route path='/form' element={<ValidationForm/>}/>
-      <Route path='/input' element={<InputForm/>}/>
-      <Route path='/url-short' element={<UrlShort/>}/>
-      <Route path='/password' element={<PasswordGenerator/>}/>
-      <Route path='/login' element={<Login/>}/>
-      <Route path='/stopwatch' element={<StopWatch/>}/>
-      <Route path='/modal' element={<Modal/>}/>
-      <Route path='/pagination' element={<PaginationExample/>}/>
-      <Route path='/todo' element={<Todo/>}/>
-      <Route path='/tool' element={<Tool/>}/>
-      <Route path='/useForm' element={<Form/>}/>
-      <Route path='/infinite-scroll' element={<InfiniteScroll/>}/>
-      <Route path='/theme' element={<Theme/>}/>
-      <Route path='/auth' element={<Auth/>}/>
+
+      //Youtube Shorts
+      <Route path='/shorts1' element={<ConditionalRendering/>}/>
+      
+      //React Js Machine Coding Challenge
+      <Route path='/challenge01' element={<Challenge01/>}/>
+      <Route path='/challenge02' element={<Challenge02/>}/>
+      <Route path='/challenge03' element={<Challenge03/>}/>
+      <Route path='/challenge04' element={<Challenge04/>}/>
+      <Route path='/challenge05' element={<Challenge05/>}/>
+      <Route path='/challenge06' element={<Challenge06/>}/>
+      <Route path='/challenge07' element={<Challenge07/>}/>
+      <Route path='/challenge08' element={<Challenge08/>}/>
+      <Route path='/challenge09' element={<Challenge09/>}/>
+      <Route path='/challenge10' element={<Challenge10/>}/>
+      <Route path='/challenge11' element={<Challenge11/>}/>
+      <Route path='/challenge12' element={<Challenge12/>}/>
+      <Route path='/challenge13' element={<Challenge13/>}/>
+      <Route path='/challenge14' element={<Challenge14/>}/>
+      <Route path='/challenge15' element={<Challenge15/>}/>
+      <Route path='/challenge16' element={<Challenge16/>}/>
+      <Route path='/challenge17' element={<Challenge17/>}/>
+      <Route path='/challenge18' element={<Challenge18/>}/>
       <Route path='/challenge19' element={<Challenge19/>}/>
       <Route path='/challenge20' element={<Challenge20/>}/>
-      <Route path='/shorts1' element={<ConditionalRendering/>}/>
       <Route path='/challenge21' element={<Challenge21/>}/>
       <Route path='/challenge22' element={<Challenge22/>}/>
       <Route path='/challenge23' element={<Challenge23/>}/>
@@ -86,6 +99,7 @@ const App = () => {
       <Route path='/challenge27' element={<Challenge27/>}/>
       <Route path='/challenge28' element={<Challenge28/>}/>
       <Route path='/challenge29' element={<Challenge29/>}/>
+      <Route path='/challenge30' element={<Challenge30/>}/>
     </Routes>
   )
 }

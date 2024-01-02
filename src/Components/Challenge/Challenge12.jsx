@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 
-const PaginationExample = () => {
+const Challenge12 = () => {
 
     const [posts, setPosts] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
@@ -78,4 +78,4 @@ const PaginationExample = () => {
     );
 };
 
-export default PaginationExample;
+export default Challenge12;

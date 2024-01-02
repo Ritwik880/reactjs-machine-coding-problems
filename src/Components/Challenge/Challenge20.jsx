@@ -1,7 +1,7 @@
 // Design and implement a robust solution for handling asynchronous API calls in a React application using custom hooks. The goal is to create a reusable and efficient mechanism for making API requests, managing loading and error states, and handling the lifecycle of the data fetching process.
 
 import React from 'react'
-import useApi from '../custom-hook/useApi'
+import useApi from '../react-custom-hook/useApi'
 
 const Challenge20 = () => {
     const { data, loading, error } = useApi();

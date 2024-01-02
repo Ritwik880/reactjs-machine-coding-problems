@@ -2,7 +2,7 @@
 
 import React, {useState, useEffect} from 'react'
 
-const Puzzle = () => {
+const Challenge04 = () => {
   const [message, setMessage] = useState('Hello, World!');
 
   useEffect(() => {
@@ -22,4 +22,4 @@ const Puzzle = () => {
   )
 }
 
-export default Puzzle
+export default Challenge04

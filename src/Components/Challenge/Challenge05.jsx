@@ -2,7 +2,7 @@
 
 import React, {useState} from 'react'
 
-const ValidationForm = () => {
+const Challenge05 = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -87,4 +87,4 @@ const ValidationForm = () => {
     )
 }
 
-export default ValidationForm
+export default Challenge05

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 
-const StopWatch = () => {
+const Challenge10 = () => {
     const [isRunning, setIsRunning] = useState(false);
     const [elapsedTime, setElapsedTime] = useState(0);
 
@@ -63,4 +63,4 @@ const StopWatch = () => {
     );
 };
 
-export default StopWatch;
+export default Challenge10;

@@ -31,7 +31,7 @@ const LoginForm = ({ onLogin }) => {
     )
 }
 
-const Auth = () => {
+const Challenge18 = () => {
     const { user, login, logout } = useAuth();
 
     const handleLogin = (username, password) => {
@@ -59,4 +59,4 @@ const Auth = () => {
     )
 }
 
-export default Auth
+export default Challenge18

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const PasswordGenerator = () => {
+const Challenge08 = () => {
     const [password, setPassword] = useState('');
     const [passwordLength, setPasswordLength] = useState(12);
     const [includeUppercase, setIncludeUppercase] = useState(true);
@@ -99,4 +99,4 @@ const PasswordGenerator = () => {
     );
 };
 
-export default PasswordGenerator;
+export default Challenge08;

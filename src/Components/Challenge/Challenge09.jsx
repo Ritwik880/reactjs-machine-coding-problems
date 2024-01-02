@@ -2,7 +2,7 @@
 
 import React, {useState} from 'react'
 
-const Login = () => {
+const Challenge09 = () => {
     const [isLoggedin, setIsLoggedIn] = useState(false);
     const handleLogin = ()=>{
         setIsLoggedIn((prev)=> !prev)
@@ -26,4 +26,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Challenge09

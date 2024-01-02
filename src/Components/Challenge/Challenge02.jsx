@@ -2,7 +2,7 @@
 
 import React, {useEffect} from 'react'
 
-const FetchAPI = () => {
+const Challenge02 = () => {
   const API_ENDPOINT = `https://jsonplaceholder.typicode.com/users`;
 
   const fetchData = async (uri)=>{
@@ -24,4 +24,4 @@ const FetchAPI = () => {
   )
 }
 
-export default FetchAPI
+export default Challenge02

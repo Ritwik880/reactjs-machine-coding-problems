@@ -7,7 +7,7 @@
 // Display a loading message while the authentication status is being checked.
 
 import React, { useState } from 'react'
-import useAuth from '../custom-hook/useAuth';
+import useAuth from '../react-custom-hook/useAuth';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
