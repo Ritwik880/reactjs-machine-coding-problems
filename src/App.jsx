@@ -16,7 +16,9 @@ import ReducerHookChallenge from './Components/react-redux/ReducerHookChallenge'
 import MyComponent from './Components/react-context/MyComponent';
 
 //Youtube Short
-import ConditionalRendering from './Components/react-js-shorts/ConditionalRendering';
+import Short03 from './Components/react-js-shorts/Shorts03';
+import Short02 from './Components/react-js-shorts/Short02';
+import Short01 from './Components/react-js-shorts/Short01';
 
 //React Js Machine Coding Challenge
 import Challenge01 from './Components/Challenge/Challenge01';
@@ -67,7 +69,9 @@ const App = () => {
       <Route path='/useContext' element={<MyComponent/>}/>
 
       //Youtube Shorts
-      <Route path='/shorts1' element={<ConditionalRendering/>}/>
+      <Route path='/shorts01' element={<Short01/>}/>
+      <Route path='/shorts02' element={<Short02/>}/>
+      <Route path='/shorts03' element={<Short03/>}/>
       
       //React Js Machine Coding Challenge
       <Route path='/challenge01' element={<Challenge01/>}/>

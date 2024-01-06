@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ConditionalRendering = () => {
+const Short01 = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
 
     return (
@@ -18,4 +18,4 @@ const ConditionalRendering = () => {
     );
 };
 
-export default ConditionalRendering;
+export default Short01;
