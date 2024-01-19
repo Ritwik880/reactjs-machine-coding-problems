@@ -1,0 +1,53 @@
+/* Styles for the form container */
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Styles for each field container */
+div {
+    margin-bottom: 15px;
+}
+
+/* Styles for input fields */
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style for the "Remove" button */
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ff6161;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style for the "Add Field" button */
+button[type="button"] {
+    background-color: #4caf50;
+}
+
+/* Style for the submit button */
+button[type="submit"] {
+    background-color: #008CBA;
+    color: #fff;
+}
+
+/* Clearfix to handle floated elements within the form */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

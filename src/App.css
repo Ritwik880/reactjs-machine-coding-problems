@@ -165,20 +165,61 @@ ul li {
     border-radius: 5px;
 }
 
-.main-page{
+.main-page {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 100px 0;
     background: #9b59b6;
 }
-.card-wrap{
+
+.card-wrap {
     height: 110px;
 }
-.form-div{
+
+.form-div {
     width: 100%;
     margin: auto;
 }
-.select-tag{
+
+.select-tag {
     width: 210px;
+}
+
+.tabs {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.tab-list {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background-color: #f4f4f4;
+    user-select: none;
+}
+
+.tab:hover {
+    background-color: #e0e0e0;
+}
+
+.tab.active {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.tab-content {
+    padding: 20px;
+    display: none;
+    color: #fff;
+}
+
+.tab-content.active {
+    display: block;
 }
