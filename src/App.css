@@ -223,3 +223,53 @@ ul li {
 .tab-content.active {
     display: block;
 }
+
+/* DynamicTable.css */
+
+.dynamic-table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: var(--text);
+}
+
+table th {
+    cursor: pointer;
+    user-select: none;
+}
+
+.sort-icon {
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.sort-icon.asc::after {
+    content: '▲';
+}
+
+.sort-icon.desc::after {
+    content: '▼';
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #45a049;
+}
