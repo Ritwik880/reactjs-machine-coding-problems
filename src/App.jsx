@@ -56,6 +56,8 @@ import Challenge32 from './Components/Challenge/Challenge32';
 import Challenge33 from './Components/Challenge/Challenge33';
 import Challenge34 from './Components/Challenge/Challenge34';
 import Challenge35 from './Components/Challenge/Challenge35';
+import Challenge36 from './Components/Challenge/Challenge36';
+import Challenge37 from './Components/Challenge/Challenge37';
 
 const App = () => {
   return (
@@ -114,6 +116,8 @@ const App = () => {
       <Route path='/challenge33' element={<Challenge33/>}/>
       <Route path='/challenge34' element={<Challenge34/>}/>
       <Route path='/challenge35' element={<Challenge35/>}/>
+      <Route path='/challenge36' element={<Challenge36/>}/>
+      <Route path='/challenge37' element={<Challenge37/>}/>
     </Routes>
   )
 }

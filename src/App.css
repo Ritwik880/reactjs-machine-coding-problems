@@ -95,6 +95,15 @@
 
 }
 
+.select {
+    padding: 10px;
+}
+
+.selectedOption {
+    color: var(--text);
+    padding-top: 10px;
+}
+
 .page {
     color: #fff;
     margin: 0 10px;
@@ -272,4 +281,8 @@ table th {
 
 .pagination button.active {
     background-color: #45a049;
+}
+
+.lazy-image{
+    width: 50%;
 }
