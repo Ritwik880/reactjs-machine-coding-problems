@@ -60,6 +60,10 @@ import Challenge36 from './Components/Challenge/Challenge36';
 import Challenge37 from './Components/Challenge/Challenge37';
 import Challenge38 from './Components/Challenge/Challenge38';
 import Challenge39 from './Components/Challenge/Challenge39';
+import Challenge40 from './Components/Challenge/Challenge40';
+import About from './Components/Challenge/About';
+import Service from './Components/Challenge/Service';
+import Contact from './Components/Challenge/Contact';
 
 const App = () => {
   return (
@@ -81,6 +85,11 @@ const App = () => {
       <Route path='/shorts01' element={<Short01/>}/>
       <Route path='/shorts02' element={<Short02/>}/>
       <Route path='/shorts03' element={<Short03/>}/>
+
+      //page
+      <Route path='/about' element={<About/>}/>
+      <Route path='/service' element={<Service/>}/>
+      <Route path='/contact' element={<Contact/>}/>
       
       //React Js Machine Coding Challenge
       <Route path='/challenge01' element={<Challenge01/>}/>
@@ -122,6 +131,7 @@ const App = () => {
       <Route path='/challenge37' element={<Challenge37/>}/>
       <Route path='/challenge38' element={<Challenge38/>}/>
       <Route path='/challenge39' element={<Challenge39/>}/>
+      <Route path='/challenge40' element={<Challenge40/>}/>
     </Routes>
   )
 }
