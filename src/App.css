@@ -91,7 +91,7 @@
 .heading,
 .title,
 .para {
-    color: #fff;
+    color: #ecf0f1;
 
 }
 
@@ -293,7 +293,7 @@ table th {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #34495e;
+    background: #ecf0f1;
 }
 
 .timeline {
