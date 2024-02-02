@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Roboto+Flex:opsz@8..144&family=Work+Sans:wght@400;500&display=swap');
+
 :root {
     --primary: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 103, 1) 100%, rgba(0, 212, 255, 1) 100%);
     --text: #FFFFFF;
@@ -7,6 +9,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .landing-section {
@@ -85,7 +89,7 @@
 .input-box {
     width: 300px;
     margin: auto;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .heading,
@@ -293,7 +297,7 @@ table th {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #ecf0f1;
+    background: #0984e3;
 }
 
 .timeline {
@@ -352,4 +356,40 @@ table th {
     background-color: #4caf50;
     border-radius: 50%;
     z-index: 1;
+}
+
+.otp-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #dfe6e9;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.otp-heading{
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+}
+.email-input{
+    width: 300px;
+}
+.otp-error{
+    color: #d63031;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.otp-verify-email{
+    margin-top: 10px;
+}
+.otp-login{
+    border: none;
+    color: var(--text);
+    font-size: 20px;
+    font-weight: 500;
+    width: 150px;
+    margin-top: 10px;
 }
