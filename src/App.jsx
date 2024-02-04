@@ -65,6 +65,7 @@ import About from './Components/Challenge/About';
 import Service from './Components/Challenge/Service';
 import Contact from './Components/Challenge/Contact';
 import Challenge41 from './Components/Challenge/Challenge41';
+import Challenge42 from './Components/Challenge/Challenge42';
 
 const App = () => {
   return (
@@ -134,6 +135,7 @@ const App = () => {
       <Route path='/challenge39' element={<Challenge39/>}/>
       <Route path='/challenge40' element={<Challenge40/>}/>
       <Route path='/challenge41' element={<Challenge41/>}/>
+      <Route path='/challenge42' element={<Challenge42/>}/>
     </Routes>
   )
 }
