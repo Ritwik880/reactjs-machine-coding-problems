@@ -306,10 +306,12 @@ table th {
     flex-direction: column;
     align-items: center;
 }
-.timeline-image{
+
+.timeline-image {
     width: 100px;
     border-radius: 6px;
 }
+
 .timeline-line {
     position: absolute;
     top: 0;
@@ -358,7 +360,7 @@ table th {
     z-index: 1;
 }
 
-.otp-div{
+.otp-div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -368,24 +370,29 @@ table th {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.otp-heading{
+
+.otp-heading {
     font-size: 40px;
     font-weight: 600;
     color: #000;
 }
-.email-input{
+
+.email-input {
     width: 300px;
 }
-.otp-error{
+
+.otp-error {
     color: #d63031;
     font-weight: 600;
     font-size: 20px;
     padding: 10px 0;
 }
-.otp-verify-email{
+
+.otp-verify-email {
     margin-top: 10px;
 }
-.otp-login{
+
+.otp-login {
     border: none;
     color: var(--text);
     font-size: 20px;
@@ -393,12 +400,60 @@ table th {
     width: 150px;
     margin-top: 10px;
 }
-.select{
+
+.select {
     width: 200px;
 }
-.select-div{
+
+.select-div {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.heading-text {
+    color: var(--text);
+}
+
+.label {
+    padding-top: 5px;
+}
+
+.emi-calculate-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.traffic-light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #000;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.light {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.active {
+    border: 4px solid #fff;
 }
