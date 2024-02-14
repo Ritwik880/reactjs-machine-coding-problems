@@ -16,22 +16,22 @@ Whether you're a beginner looking to solidify your understanding of React or an 
 
 ## Challenges
 
-1. **Challenge 1: [FETCH API](./challenges/challenge01.jsx)**
-   - You are provided with a React component named Challenge02. The goal of this challenge is to enhance the existing code to manage and display data       fetched from an API.
+1. **Challenge 1: [FETCH API](/src/Components/Challenge/Challenge02.jsx):**
+   - Make a request using the Fetch API and display the response data in your app.
    - Utilize the fetchData function to fetch data from the provided API endpoint (https://jsonplaceholder.typicode.com/users).
    - Display the fetched data in the console using console.log(incomingData).
 
-2. **Challenge 2: [Counter](./challenges/challenge02.jsx)**
+2. **Challenge 2: [Counter](/src/Components/Challenge/Challenge03.jsx)**
    - Create a React component that increments a counter when a button is clicked. 
    - Note: The challenge is to implement it in such a way that it doesn't use the useState hook or class state.
 
-3. **Challenge 3: [Puzzle](./challenges/challenge03.jsx)**
+3. **Challenge 3: [Puzzle](/src/Components/Challenge/Challenge04.jsx)**
    - Conditional Rendering Puzzle: Build a React component that renders "Hello, World!" initially. After 5 seconds, change the text to "Goodbye, World!" without using any external state management libraries or timers.
 
-4. **Challenge 4: [Form Validation](./challenges/challenge04.jsx)**
+4. **Challenge 4: [Form Validation](/src/Components/Challenge/Challenge05.jsx)**
    - Create a form with input fields (e.g., name, email, password) and implement client-side form validation. Display error messages if the user enters invalid data.
 
-5. **Challenge 5: [Implement Controlled & UnControlled Components](./challenges/challenge05.jsx)**
+5. **Challenge 5: [Implement Controlled & UnControlled Components](./src/Components/Challenge/Challenge06.jsx)**
    - Implement the controlled component approach for the email input field.
    - Utilize the useRef hook to create an uncontrolled component for the password input field.
    - Log the email and password values to the console during form submission.

@@ -69,8 +69,8 @@ import Challenge42 from './Components/Challenge/Challenge42';
 import Challenge43 from './Components/Challenge/Challenge43';
 import Challenge44 from './Components/Challenge/Challenge44';
 import Challenge45 from './Components/Challenge/Challenge45';
-import Challenge46 from './Components/Challenge/Challenge46';
 import ExpenseTracker from './Components/Challenge/expense-tracker/ExpenseTracker';
+import Challenge47 from './Components/Challenge/Challenge47';
 
 const App = () => {
   return (
@@ -144,8 +144,8 @@ const App = () => {
       <Route path='/challenge43' element={<Challenge43/>}/>
       <Route path='/challenge44' element={<Challenge44/>}/>
       <Route path='/challenge45' element={<Challenge45/>}/>
-      {/* <Route path='/challenge46' element={<Challenge46/>}/> */}
       <Route path='/challenge46' element={<ExpenseTracker/>}/>
+      <Route path='/challenge47' element={<Challenge47/>}/>
     </Routes>
   )
 }

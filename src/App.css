@@ -462,4 +462,5 @@ table th {
     background: var(--text);
     padding: 20px;
     border-radius: 6px;
+    min-height: 400px;
 }
